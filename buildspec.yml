@@ -12,3 +12,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'generative-ai-use-cases-jp/browser-extension/dist'
+  discard-paths: no
