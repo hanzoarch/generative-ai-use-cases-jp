@@ -7,9 +7,8 @@ phases:
     commands:
       - npm run cdk:deploy:quick
       - npm run extension:ci
-      - npm run extension:buildw
+      - npm run extension:build
 artifacts:
   files:
     - '**/*'
-  directories:
-    - 'generative-ai-use-cases-jp/browser-extension/dist/**/*'  # 成果物のパス[2][5]
+  base-directory: 'generative-ai-use-cases-jp/browser-extension/dist'
